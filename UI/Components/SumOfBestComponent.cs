@@ -31,7 +31,7 @@ namespace LiveSplit.UI.Components
         public SumOfBestComponent(LiveSplitState state)
         {
             Formatter = new RegularSumOfBestTimeFormatter();
-            InternalComponent = new InfoTimeComponent("Sum of Best Segments", null, Formatter)
+            InternalComponent = new InfoTimeComponent("Copium Timer", null, Formatter)
             {
                 AlternateNameText = new string[]
                 {
